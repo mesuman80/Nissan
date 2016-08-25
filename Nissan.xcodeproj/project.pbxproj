@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530F656C1D6EBFAB00078CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F656B1D6EBFAB00078CED /* main.m */; };
+		530F656F1D6EBFAB00078CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F656E1D6EBFAB00078CED /* AppDelegate.m */; };
+		530F65721D6EBFAB00078CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65711D6EBFAB00078CED /* ViewController.m */; };
+		530F65751D6EBFAB00078CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530F65731D6EBFAB00078CED /* Main.storyboard */; };
+		530F65771D6EBFAB00078CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530F65761D6EBFAB00078CED /* Assets.xcassets */; };
+		530F657A1D6EBFAB00078CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530F65781D6EBFAB00078CED /* LaunchScreen.storyboard */; };
+		530F65851D6EBFAB00078CED /* NissanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65841D6EBFAB00078CED /* NissanTests.m */; };
+		530F65901D6EBFAB00078CED /* NissanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F658F1D6EBFAB00078CED /* NissanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		530F65811D6EBFAB00078CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530F655F1D6EBFAB00078CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 530F65661D6EBFAB00078CED;
+			remoteInfo = Nissan;
+		};
+		530F658C1D6EBFAB00078CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530F655F1D6EBFAB00078CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 530F65661D6EBFAB00078CED;
+			remoteInfo = Nissan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		530F65671D6EBFAB00078CED /* Nissan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nissan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530F656B1D6EBFAB00078CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530F656D1D6EBFAB00078CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		530F656E1D6EBFAB00078CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		530F65701D6EBFAB00078CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		530F65711D6EBFAB00078CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		530F65741D6EBFAB00078CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		530F65761D6EBFAB00078CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		530F65791D6EBFAB00078CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		530F657B1D6EBFAB00078CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530F65801D6EBFAB00078CED /* NissanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NissanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		530F65841D6EBFAB00078CED /* NissanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NissanTests.m; sourceTree = "<group>"; };
+		530F65861D6EBFAB00078CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530F658B1D6EBFAB00078CED /* NissanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NissanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		530F658F1D6EBFAB00078CED /* NissanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NissanUITests.m; sourceTree = "<group>"; };
+		530F65911D6EBFAB00078CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530F65641D6EBFAB00078CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F657D1D6EBFAB00078CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F65881D6EBFAB00078CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530F655E1D6EBFAB00078CED = {
+			isa = PBXGroup;
+			children = (
+				530F65691D6EBFAB00078CED /* Nissan */,
+				530F65831D6EBFAB00078CED /* NissanTests */,
+				530F658E1D6EBFAB00078CED /* NissanUITests */,
+				530F65681D6EBFAB00078CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530F65681D6EBFAB00078CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530F65671D6EBFAB00078CED /* Nissan.app */,
+				530F65801D6EBFAB00078CED /* NissanTests.xctest */,
+				530F658B1D6EBFAB00078CED /* NissanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530F65691D6EBFAB00078CED /* Nissan */ = {
+			isa = PBXGroup;
+			children = (
+				530F656D1D6EBFAB00078CED /* AppDelegate.h */,
+				530F656E1D6EBFAB00078CED /* AppDelegate.m */,
+				530F65701D6EBFAB00078CED /* ViewController.h */,
+				530F65711D6EBFAB00078CED /* ViewController.m */,
+				530F65731D6EBFAB00078CED /* Main.storyboard */,
+				530F65761D6EBFAB00078CED /* Assets.xcassets */,
+				530F65781D6EBFAB00078CED /* LaunchScreen.storyboard */,
+				530F657B1D6EBFAB00078CED /* Info.plist */,
+				530F656A1D6EBFAB00078CED /* Supporting Files */,
+			);
+			path = Nissan;
+			sourceTree = "<group>";
+		};
+		530F656A1D6EBFAB00078CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530F656B1D6EBFAB00078CED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		530F65831D6EBFAB00078CED /* NissanTests */ = {
+			isa = PBXGroup;
+			children = (
+				530F65841D6EBFAB00078CED /* NissanTests.m */,
+				530F65861D6EBFAB00078CED /* Info.plist */,
+			);
+			path = NissanTests;
+			sourceTree = "<group>";
+		};
+		530F658E1D6EBFAB00078CED /* NissanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				530F658F1D6EBFAB00078CED /* NissanUITests.m */,
+				530F65911D6EBFAB00078CED /* Info.plist */,
+			);
+			path = NissanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530F65661D6EBFAB00078CED /* Nissan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530F65941D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "Nissan" */;
+			buildPhases = (
+				530F65631D6EBFAB00078CED /* Sources */,
+				530F65641D6EBFAB00078CED /* Frameworks */,
+				530F65651D6EBFAB00078CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nissan;
+			productName = Nissan;
+			productReference = 530F65671D6EBFAB00078CED /* Nissan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		530F657F1D6EBFAB00078CED /* NissanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530F65971D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanTests" */;
+			buildPhases = (
+				530F657C1D6EBFAB00078CED /* Sources */,
+				530F657D1D6EBFAB00078CED /* Frameworks */,
+				530F657E1D6EBFAB00078CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				530F65821D6EBFAB00078CED /* PBXTargetDependency */,
+			);
+			name = NissanTests;
+			productName = NissanTests;
+			productReference = 530F65801D6EBFAB00078CED /* NissanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		530F658A1D6EBFAB00078CED /* NissanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530F659A1D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanUITests" */;
+			buildPhases = (
+				530F65871D6EBFAB00078CED /* Sources */,
+				530F65881D6EBFAB00078CED /* Frameworks */,
+				530F65891D6EBFAB00078CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				530F658D1D6EBFAB00078CED /* PBXTargetDependency */,
+			);
+			name = NissanUITests;
+			productName = NissanUITests;
+			productReference = 530F658B1D6EBFAB00078CED /* NissanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530F655F1D6EBFAB00078CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sakshi;
+				TargetAttributes = {
+					530F65661D6EBFAB00078CED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					530F657F1D6EBFAB00078CED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 530F65661D6EBFAB00078CED;
+					};
+					530F658A1D6EBFAB00078CED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 530F65661D6EBFAB00078CED;
+					};
+				};
+			};
+			buildConfigurationList = 530F65621D6EBFAB00078CED /* Build configuration list for PBXProject "Nissan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 530F655E1D6EBFAB00078CED;
+			productRefGroup = 530F65681D6EBFAB00078CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530F65661D6EBFAB00078CED /* Nissan */,
+				530F657F1D6EBFAB00078CED /* NissanTests */,
+				530F658A1D6EBFAB00078CED /* NissanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530F65651D6EBFAB00078CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530F657A1D6EBFAB00078CED /* LaunchScreen.storyboard in Resources */,
+				530F65771D6EBFAB00078CED /* Assets.xcassets in Resources */,
+				530F65751D6EBFAB00078CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F657E1D6EBFAB00078CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F65891D6EBFAB00078CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530F65631D6EBFAB00078CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530F65721D6EBFAB00078CED /* ViewController.m in Sources */,
+				530F656F1D6EBFAB00078CED /* AppDelegate.m in Sources */,
+				530F656C1D6EBFAB00078CED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F657C1D6EBFAB00078CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530F65851D6EBFAB00078CED /* NissanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530F65871D6EBFAB00078CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530F65901D6EBFAB00078CED /* NissanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		530F65821D6EBFAB00078CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 530F65661D6EBFAB00078CED /* Nissan */;
+			targetProxy = 530F65811D6EBFAB00078CED /* PBXContainerItemProxy */;
+		};
+		530F658D1D6EBFAB00078CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 530F65661D6EBFAB00078CED /* Nissan */;
+			targetProxy = 530F658C1D6EBFAB00078CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		530F65731D6EBFAB00078CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530F65741D6EBFAB00078CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		530F65781D6EBFAB00078CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530F65791D6EBFAB00078CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530F65921D6EBFAB00078CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		530F65931D6EBFAB00078CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530F65951D6EBFAB00078CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nissan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.Nissan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		530F65961D6EBFAB00078CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nissan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.Nissan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		530F65981D6EBFAB00078CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NissanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.NissanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nissan.app/Nissan";
+			};
+			name = Debug;
+		};
+		530F65991D6EBFAB00078CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NissanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.NissanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nissan.app/Nissan";
+			};
+			name = Release;
+		};
+		530F659B1D6EBFAB00078CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NissanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.NissanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nissan;
+			};
+			name = Debug;
+		};
+		530F659C1D6EBFAB00078CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NissanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imagine-Interactive.NissanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nissan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530F65621D6EBFAB00078CED /* Build configuration list for PBXProject "Nissan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530F65921D6EBFAB00078CED /* Debug */,
+				530F65931D6EBFAB00078CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530F65941D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "Nissan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530F65951D6EBFAB00078CED /* Debug */,
+				530F65961D6EBFAB00078CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		530F65971D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530F65981D6EBFAB00078CED /* Debug */,
+				530F65991D6EBFAB00078CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		530F659A1D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530F659B1D6EBFAB00078CED /* Debug */,
+				530F659C1D6EBFAB00078CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530F655F1D6EBFAB00078CED /* Project object */;
+}
