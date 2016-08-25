@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		530F656C1D6EBFAB00078CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F656B1D6EBFAB00078CED /* main.m */; };
 		530F656F1D6EBFAB00078CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F656E1D6EBFAB00078CED /* AppDelegate.m */; };
-		530F65721D6EBFAB00078CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65711D6EBFAB00078CED /* ViewController.m */; };
 		530F65751D6EBFAB00078CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530F65731D6EBFAB00078CED /* Main.storyboard */; };
 		530F65771D6EBFAB00078CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530F65761D6EBFAB00078CED /* Assets.xcassets */; };
 		530F657A1D6EBFAB00078CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530F65781D6EBFAB00078CED /* LaunchScreen.storyboard */; };
 		530F65851D6EBFAB00078CED /* NissanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65841D6EBFAB00078CED /* NissanTests.m */; };
 		530F65901D6EBFAB00078CED /* NissanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F658F1D6EBFAB00078CED /* NissanUITests.m */; };
+		530F65AE1D6EC3FA00078CED /* InternetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65AB1D6EC3FA00078CED /* InternetConnection.m */; };
+		530F65AF1D6EC3FA00078CED /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65AD1D6EC3FA00078CED /* Reachability.m */; };
+		530F65B21D6EC44000078CED /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65B11D6EC44000078CED /* WebService.m */; };
+		530F65BA1D6EC4B300078CED /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65B41D6EC4B300078CED /* NotificationManager.m */; };
+		530F65BB1D6EC4B300078CED /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65B71D6EC4B300078CED /* Utility.m */; };
+		530F65BC1D6EC4B300078CED /* SharePreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65B91D6EC4B300078CED /* SharePreferenceUtil.m */; };
+		530F65BF1D6EC50C00078CED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F65BE1D6EC50C00078CED /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		530F656B1D6EBFAB00078CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		530F656D1D6EBFAB00078CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		530F656E1D6EBFAB00078CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		530F65701D6EBFAB00078CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		530F65711D6EBFAB00078CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		530F65741D6EBFAB00078CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530F65761D6EBFAB00078CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530F65791D6EBFAB00078CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,22 @@
 		530F658B1D6EBFAB00078CED /* NissanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NissanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		530F658F1D6EBFAB00078CED /* NissanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NissanUITests.m; sourceTree = "<group>"; };
 		530F65911D6EBFAB00078CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530F659D1D6EC12000078CED /* Nissan.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Nissan.pch; path = Nissan/Nissan.pch; sourceTree = "<group>"; };
+		530F65AA1D6EC3FA00078CED /* InternetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConnection.h; sourceTree = "<group>"; };
+		530F65AB1D6EC3FA00078CED /* InternetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetConnection.m; sourceTree = "<group>"; };
+		530F65AC1D6EC3FA00078CED /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		530F65AD1D6EC3FA00078CED /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		530F65B01D6EC43300078CED /* WebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		530F65B11D6EC44000078CED /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		530F65B31D6EC4B300078CED /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		530F65B41D6EC4B300078CED /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		530F65B51D6EC4B300078CED /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		530F65B61D6EC4B300078CED /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		530F65B71D6EC4B300078CED /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		530F65B81D6EC4B300078CED /* SharePreferenceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharePreferenceUtil.h; sourceTree = "<group>"; };
+		530F65B91D6EC4B300078CED /* SharePreferenceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharePreferenceUtil.m; sourceTree = "<group>"; };
+		530F65BD1D6EC50C00078CED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		530F65BE1D6EC50C00078CED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,7 @@
 		530F655E1D6EBFAB00078CED = {
 			isa = PBXGroup;
 			children = (
+				530F659D1D6EC12000078CED /* Nissan.pch */,
 				530F65691D6EBFAB00078CED /* Nissan */,
 				530F65831D6EBFAB00078CED /* NissanTests */,
 				530F658E1D6EBFAB00078CED /* NissanUITests */,
@@ -101,10 +122,18 @@
 		530F65691D6EBFAB00078CED /* Nissan */ = {
 			isa = PBXGroup;
 			children = (
+				530F65A81D6EC39100078CED /* Libs */,
+				530F65A71D6EC38500078CED /* Callbacks */,
+				530F65A61D6EC37800078CED /* CustomViews */,
+				530F65A51D6EC36F00078CED /* Database */,
+				530F65A41D6EC36200078CED /* DataModels */,
+				530F65A31D6EC35800078CED /* Location */,
+				530F65A21D6EC34E00078CED /* Resources */,
+				530F65A11D6EC34200078CED /* Services */,
+				530F65A01D6EC33700078CED /* Utility */,
+				530F659F1D6EC32900078CED /* ViewControllers */,
 				530F656D1D6EBFAB00078CED /* AppDelegate.h */,
 				530F656E1D6EBFAB00078CED /* AppDelegate.m */,
-				530F65701D6EBFAB00078CED /* ViewController.h */,
-				530F65711D6EBFAB00078CED /* ViewController.m */,
 				530F65731D6EBFAB00078CED /* Main.storyboard */,
 				530F65761D6EBFAB00078CED /* Assets.xcassets */,
 				530F65781D6EBFAB00078CED /* LaunchScreen.storyboard */,
@@ -138,6 +167,99 @@
 				530F65911D6EBFAB00078CED /* Info.plist */,
 			);
 			path = NissanUITests;
+			sourceTree = "<group>";
+		};
+		530F659F1D6EC32900078CED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				530F65BD1D6EC50C00078CED /* BaseViewController.h */,
+				530F65BE1D6EC50C00078CED /* BaseViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		530F65A01D6EC33700078CED /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				530F65B31D6EC4B300078CED /* NotificationManager.h */,
+				530F65B41D6EC4B300078CED /* NotificationManager.m */,
+				530F65B51D6EC4B300078CED /* Constants.h */,
+				530F65B61D6EC4B300078CED /* Utility.h */,
+				530F65B71D6EC4B300078CED /* Utility.m */,
+				530F65B81D6EC4B300078CED /* SharePreferenceUtil.h */,
+				530F65B91D6EC4B300078CED /* SharePreferenceUtil.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		530F65A11D6EC34200078CED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				530F65A91D6EC3CD00078CED /* InternetServices */,
+				530F65B01D6EC43300078CED /* WebService.h */,
+				530F65B11D6EC44000078CED /* WebService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		530F65A21D6EC34E00078CED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		530F65A31D6EC35800078CED /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		530F65A41D6EC36200078CED /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		530F65A51D6EC36F00078CED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		530F65A61D6EC37800078CED /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		530F65A71D6EC38500078CED /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Callbacks;
+			sourceTree = "<group>";
+		};
+		530F65A81D6EC39100078CED /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		530F65A91D6EC3CD00078CED /* InternetServices */ = {
+			isa = PBXGroup;
+			children = (
+				530F65AA1D6EC3FA00078CED /* InternetConnection.h */,
+				530F65AB1D6EC3FA00078CED /* InternetConnection.m */,
+				530F65AC1D6EC3FA00078CED /* Reachability.h */,
+				530F65AD1D6EC3FA00078CED /* Reachability.m */,
+			);
+			name = InternetServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +392,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530F65721D6EBFAB00078CED /* ViewController.m in Sources */,
+				530F65BB1D6EC4B300078CED /* Utility.m in Sources */,
+				530F65BF1D6EC50C00078CED /* BaseViewController.m in Sources */,
+				530F65B21D6EC44000078CED /* WebService.m in Sources */,
+				530F65AE1D6EC3FA00078CED /* InternetConnection.m in Sources */,
+				530F65BC1D6EC4B300078CED /* SharePreferenceUtil.m in Sources */,
 				530F656F1D6EBFAB00078CED /* AppDelegate.m in Sources */,
 				530F656C1D6EBFAB00078CED /* main.m in Sources */,
+				530F65BA1D6EC4B300078CED /* NotificationManager.m in Sources */,
+				530F65AF1D6EC3FA00078CED /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +626,7 @@
 				530F65961D6EBFAB00078CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		530F65971D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +635,7 @@
 				530F65991D6EBFAB00078CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		530F659A1D6EBFAB00078CED /* Build configuration list for PBXNativeTarget "NissanUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +644,7 @@
 				530F659C1D6EBFAB00078CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
